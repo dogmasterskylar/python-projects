@@ -1,24 +1,13 @@
-
 import random
 
-print('Welcome to the majic 8-Ball')
+print("hello world")
+print("whats your name (approximatly)? ")
+name = input('>')
+answers = [
+    'garrett.','john.','campbell','bob',
+    'carle',
+    'j.'
+]
 
-while True: 
+print(random.choice(answers))
 
-
-    print('enter your question:')
-    question = input ('>')
-
-
-
-
-    print("You're question is ...",question)
-
-    answers = [
-        'Yes.','No.','Maybe','be quit pencil neck',
-        'i dont like to be a slave Mr.Garrett',
-        'mincraft is awesome ow? sorry i cant answer this question'
-    ]
-
-    answer = random.choice(answers)
-    print(answer) 
